@@ -24,7 +24,7 @@ void main(void)
 #include <windows.h>
 #include <gl\glut.h>
 #include <math.h>
-//	glColor3ub();
+//	();
 //키보드를 이용해 회전시키기 위한 변수
 GLfloat xRot = 0.0f;
 GLfloat yRot = 0.0f;

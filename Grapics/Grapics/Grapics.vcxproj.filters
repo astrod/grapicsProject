@@ -18,16 +18,7 @@
     <ClCompile Include="grapic.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="drawRectangle.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="bounceRectangle.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="drawSpringVertex.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexSize.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="LineDrawing.c">
@@ -36,8 +27,37 @@
     <ClCompile Include="LineStrip.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="PracticalProblem2_1.c">
+    <ClCompile Include="coneCulling.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Practical4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Practical1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Jet\VectorMath.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Jet\Jet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Practical2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Practical3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bmp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Jet\GLTools.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -13,24 +13,20 @@ void SetupRC()
 void RenderScene(void)
 {
 	GLfloat x,y,z,angle;
-	float a =30.0f;
-	float b =30.0f;
+	float a =5.0f;
 	glClear(GL_COLOR_BUFFER_BIT);
 	glPushMatrix(); //matrix삽입
 	glRotatef(xRot,1.0f,0.0f,0.0f); //x, y, z에서 x축을 기준으로 rotation 변화
 	glRotatef(yRot,0.0f,1.0f,0.0f); //y축을 기준으로 각도만큼 rotation 변화
 	glBegin(GL_POINTS); //점 그리기 시작함
 	z=-20.0f;
-
-
-	for(angle = 0.0f; angle <= (2.0f*GL_PI)*9.0f; angle +=0.05f)  
-   // 3.14/0.1 개의 포인트를 뿌린다 총 3바퀴 
+	
+	for(angle = 0.0f; angle <= (2.0f*GL_PI)*7.0f; angle +=0.1f)   
 	{
 		x = a*sin(angle); //원형의 경로를 만들기 위해, 삼각함수를 통한 x좌표
-		y = b*cos(angle); //경로를 만들기 위해 삼각함수를 위한 y좌표
+		y = a*cos(angle); //경로를 만들기 위해 삼각함수를 위한 y좌표
 		glVertex3f(x,y,z);
 		a +=0.01f*angle;
-		b +=0.01f*angle;
 		z +=0.02f*angle;
 	}
 	glEnd(); // 점 그리기 끝
